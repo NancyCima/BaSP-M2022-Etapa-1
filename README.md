@@ -26,6 +26,9 @@ In this repository you will find:
 "An HTML index file whit the structure of the landing page"
 "An "assets" folder whit the images used in the page"
 
+### Instalation and Usage
+Trackgenix does not need instalation. All you have to do is sing in!
+
 ### Contact us
 Have any questions about Trackgenix? Contact us 24 hours a day 7 days a week for support.
 - Send a e-mail to: customer-service@trackgenix.com
