@@ -1,0 +1,17 @@
+/* CSS code for Trackgenix (by Nancy L. Cima) */
+
+/* Fonts */
+
+/* Color Palette */
+
+/* Element selectors */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 122px;
+    background-color: #AACE9B;
+    z-index: 99;
+}
