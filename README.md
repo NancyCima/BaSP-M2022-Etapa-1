@@ -24,9 +24,10 @@ Simple, because Trackgenix will help your company with:
 
 ### Content
 In this repository you will find:
-"A HTML index file whit the structure of the landing page"
-"An "assets" folder whit the images used in the page"
-"A "CSS" folder that includes a CSS style file with the design of the landing page and a CSS reset file that helps normalize the CSS code"
+
+  - "A HTML index file whit the structure of the landing page"
+  - "An "assets" folder whit the images used in the page"
+  - "A "CSS" folder that includes a CSS style file with the design of the landing page and a CSS reset file that helps normalize the CSS code"
 
 ### Instalation and Usage
 Trackgenix does not need installation. All you have to do is sing in!
@@ -41,7 +42,8 @@ We are working to improve Trackgenix so your company can have the best results. 
   #### Released Versions:
    ##### Week 02 Version:
 
-    - In the version corresponding to the second week of development of Trackgenix, the structure of the landing page was coded on HTML. In addition, the current file (README.md) was written in its majority.
+    - In the version corresponding to the second week of development of Trackgenix, the structure of the 
+      landing page was coded on HTML. In addition, the current file (README.md) was written in its majority.
 
    ##### Week 03 Version:
    
