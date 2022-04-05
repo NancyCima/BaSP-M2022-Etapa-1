@@ -40,3 +40,24 @@ text-align: right;
 vertical-align: baseline;
 color: #69A362;
 }
+
+/* Footer */
+footer {
+  position: relative;
+  top: 800px;
+  right: 0;
+  left: 19.1%;
+  width: 85%;
+  height: 150px;
+  background-color: #AACE9B;
+}
+
+footer p { 
+  margin: 30px 0 0 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #373867;
+}
+
