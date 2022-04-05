@@ -7,6 +7,15 @@
 /* Color Palette*/
 /* Pallete: black, white, #AACE9B, #373867, #69A362*/
 
+body {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #ffffff;
+  color: #373867;
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 /* Elements of the body*/
 
 /*Header*/
@@ -53,7 +62,8 @@ footer {
 }
 
 footer p { 
-  margin: 30px 0 0 5%;
+  position: absolute;  
+  margin: 50px 0 0 5%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: bold;
