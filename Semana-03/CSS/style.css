@@ -373,6 +373,38 @@ main {
     text-align: center;
 }    
 
+/* Procducts, Company and Support sections */
+
+.items-list{
+    position: relative;
+    top: 300px;
+    padding-left: 5%;
+    text-align: center;
+}
+.items-list div {
+    display: inline-block;
+    width: 20%;
+    padding: 0 5%;
+    text-align: justify;
+}
+.items-list div h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    color:#AACE9B;
+    text-transform: uppercase;
+}
+.items-list li {
+    line-height: 20px;
+    list-style-type: disc;
+}
+.items-list a {
+    font-weight: bold;
+    color: #373867;
+    list-style: circle left;
+    text-decoration: none;
+}
+
 /* Footer */
 
 footer {
