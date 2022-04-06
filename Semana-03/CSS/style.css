@@ -10,7 +10,7 @@
 body {
   box-sizing: border-box;
   position: relative;
-  background-color: #ffffff;
+  background-color: white;
   color: #373867;
   font-family:'Roboto', sans-serif;
   font-weight: 400;
@@ -50,19 +50,83 @@ vertical-align: baseline;
 color: #69A362;
 }
 
+/* Navegation bar */
+
+aside {
+    position: fixed;
+    top: 122px;
+    width: 200px;
+    height: 6000px;
+    background-color: #373867;
+    border-left: 49px solid #AACE9B;
+}
+
+.line {
+    position: relative;
+    top: 60px;
+    width: 90%;
+    border-bottom: 2px solid #69A362;
+}
+
+nav ul li a {
+    display: block;
+    position: relative;
+    top: 80px;
+    width: 130px;
+    margin: 35px auto;
+    padding: 12px 20px;
+    background-color: #AACE9B;
+    border-radius: 10px;
+    font-size: 22px;
+    color:#373867;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-section {
+    position: relative;
+    margin-top: 120px;
+    padding: 0 20px;
+    color: white;
+}
+
+.contact-section  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-section  a {
+    margin: 20px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 20px;
+    text-align: center;
+}
+.contact-section  ul {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+   text-align: center;
+}
+
+
+
 /* Footer */
+
 footer {
   position: relative;
   top: 800px;
   right: 0;
-  left: 19.1%;
+  left: 19%;
   width: 85%;
   height: 150px;
   background-color: #AACE9B;
 }
 
-footer p { 
-  position: absolute;  
+footer p {   
   margin: 50px 0 0 5%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
