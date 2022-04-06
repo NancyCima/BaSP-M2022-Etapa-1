@@ -346,6 +346,32 @@ main {
     margin-left: 40px;
 }
 
+/* "Our History" section*/
+
+.history h2 {
+    font-weight: 700;
+    font-size: 64px;
+    font-family: "roboto", sans-serif;
+    color: #373867;
+    text-align: center;
+    margin: 35px;
+}
+.p1 {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #373867;
+    margin: 35px;
+}
+.p2 {
+    margin-top: 20px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #373867;
+    text-align: center;
+}    
 
 /* Footer */
 
