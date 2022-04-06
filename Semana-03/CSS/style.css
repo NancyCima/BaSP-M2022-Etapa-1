@@ -122,7 +122,7 @@ main {
 }
 
 
-/* #Welcome section*/
+/* Welcome section*/
 
 .welcome-title {
     font-family: "roboto", sans-serif;
@@ -160,7 +160,7 @@ main {
 }
 
 
-/* #Features section*/
+/* Features section */
 .features {
     position: relative;
     margin-top: 178px;
@@ -272,6 +272,78 @@ main {
     width: 304px;
     height: 104px;
     margin-left: 83px;
+}
+
+/* Form */
+
+.form-data-field {
+    margin: 30px;
+}
+.form-data-field legend{
+    width: 700px;
+    font-family: "roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 69.5px;
+    color: #373867;
+    margin-bottom: 30px;
+}
+.form-data-field input {
+    width: 1011px;
+    height: 59px;
+    border-radius: 20px;
+    background-color: #37386766;
+    opacity: 40%;
+    margin-top: 10px;
+}
+.contact-div {
+    display: inline-block;
+    width: 1066px;
+    text-align: center;
+}
+.contact-div input {
+    margin: 5px;
+}
+.contact-div label{
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #373867;
+    margin: 0 50px 0 3px;
+}
+.contact-field legend{
+    width: 700px;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #373867;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.radio-imputs{
+    width: 32px;
+    height: 32px;
+    background-color: #37386766;
+    cursor: pointer;
+}
+.message-field{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.message-field textarea {
+    width: 1011px;
+    height: 315px;
+    background-color: #37386766;
+    opacity: 40%;
+    border-radius: 20px;
+}
+.summit-button {
+    background-color: #AACE9B;
+    border-radius: 3.75px;
+    width: 136.96px;
+    height: 34.99px;
+    margin-left: 40px;
 }
 
 
