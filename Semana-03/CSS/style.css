@@ -121,6 +121,44 @@ main {
     padding-left: 50px;
 }
 
+
+/* #Welcome section*/
+
+.welcome-title {
+    font-family: "roboto", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #373867;
+    width: 100%;
+    margin: 10px;
+}
+
+.welcome-subtitle {
+    font-family: "roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+    margin: 10px;
+}
+
+.welcome-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    color: #373867;
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcome-img {
+    width: 50%;
+    float: right;
+    display: inline;
+}
+
 /* Footer */
 
 footer {
