@@ -112,7 +112,14 @@ nav ul li a {
    text-align: center;
 }
 
+/* Main */
 
+main {
+    position: relative;
+    top: 222px;
+    margin-left: 279px;
+    padding-left: 50px;
+}
 
 /* Footer */
 
