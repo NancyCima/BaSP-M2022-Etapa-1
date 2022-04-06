@@ -333,12 +333,12 @@ main {
 }
 .message-field textarea {
     width: 1011px;
-    height: 315px;
+    height: 320px;
     background-color: #37386766;
     opacity: 40%;
     border-radius: 20px;
 }
-.summit-button {
+.submit-botton {
     background-color: #AACE9B;
     border-radius: 3.75px;
     width: 136.96px;
@@ -417,12 +417,13 @@ footer {
   background-color: #AACE9B;
 }
 
-footer p {   
-  margin: 50px 0 0 5%;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: #373867;
+footer p {
+    position: relative;
+    margin: 50px 0 0 5%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #373867;
 }
 
