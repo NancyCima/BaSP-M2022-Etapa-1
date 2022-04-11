@@ -230,29 +230,33 @@ main {
 
 /* "Our History" section*/
 
-.history h2 {
-    font-weight: 700;
-    font-size: 64px;
-    font-family: "roboto", sans-serif;
-    color: #373867;
-    text-align: center;
-    margin: 35px;
+.our-history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.p1 {
+.our-history h2 {
+    margin: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #373867;
+}
+.our-history-p1 {
+    margin: 35px;
     font-family: "roboto", sans-serif;
     font-weight: 600;
     font-size: 24px;
     text-align: center;
     color: #373867;
-    margin: 35px;
 }
-.p2 {
+.our-history-p2 {
     margin-top: 20px;
+    text-align: center;
     font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #373867;
-    text-align: center;
 }    
 
 /* Procducts, Company and Support sections */
