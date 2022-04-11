@@ -2,7 +2,12 @@
     box-sizing: border-box;
   }
 
-.line {
+.line-separator {
     margin: 50px 25px 50px 25px; 
     border: 5px solid #AACE9B;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
