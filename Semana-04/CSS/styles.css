@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+  }
+
+.line {
+    margin: 50px 25px 50px 25px; 
+    border: 5px solid #AACE9B;
+}
