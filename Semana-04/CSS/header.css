@@ -13,7 +13,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    top: 0px;
     height: 122px;
     width: 100%;
     background-color: #AACE9B;
@@ -34,7 +33,7 @@ header {
     color: #69A362;
   }
 
-  header img {
+  header img { /*-->esta heredando de header y queda mal*/
     width: 80px;
     height: 60px;
     margin: 20px 0 20px 20px;
