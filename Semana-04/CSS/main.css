@@ -164,84 +164,63 @@ main {
 
 /* Form */
 
-.form-data-field {
-    margin: 30px;
+form {
+    padding: 12.5%;
 }
-.form-data-field legend{
-    width: 700px;
-    font-family: "roboto", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 69.5px;
-    color: #373867;
-    margin-bottom: 30px;
+
+input, textarea {
+    background-color: #DADADA;
+    border-radius: 2px;
+    border-color: unset;
+    border-style: none;
 }
-.form-data-field input {
-    width: 1011px;
-    height: 59px;
-    border-radius: 20px;
-    background-color: #37386766;
-    opacity: 40%;
-    margin-top: 10px;
+textarea {
+    width: 100%;
 }
-.contact-div {
-    display: inline-block;
-    width: 1066px;
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-data-field h2 {
     text-align: center;
-}
-.contact-div input {
-    margin: 5px;
-}
-.contact-div label{
-    font-family: "roboto", sans-serif;
+    margin-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
     font-weight: 700;
-    font-size: 15px;
     color: #373867;
-    margin: 0 50px 0 3px;
 }
-.contact-field legend{
-    width: 700px;
-    font-family: "roboto", sans-serif;
+
+#form-data-field label {
+    font-size: 9px;
     font-weight: 700;
-    font-size: 18px;
-    color: #373867;
-    margin-bottom: 30px;
-    margin-left: 30px;
 }
-.radio-imputs{
-    width: 32px;
-    height: 32px;
-    background-color: #37386766;
-    cursor: pointer;
+
+#form-contact-field h2 {
+    font-size: 9px;
+    font-weight: 700;
 }
-.message-field{
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: 30px;
+
+#form-contact-field label {
+    font-size: 9px;
+    font-weight: 700;
 }
-.message-field textarea {
-    width: 1011px;
-    height: 320px;
-    background-color: #37386766;
-    opacity: 40%;
-    border-radius: 20px;
-}
-.submit-botton {
-    background-color: #AACE9B;
-    border-radius: 3.75px;
-    width: 136.96px;
-    height: 34.99px;
-    margin-left: 40px;
+
+#submit-button {
+    font-family: "roboto", sans-serif;
+    background-color: #DADADA;
+    border-radius: 2px;
 }
 
 /* "Our History" section*/
 
-.our-history {
+#our-history {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.our-history h2 {
+#our-history h2 {
     margin: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -267,30 +246,31 @@ main {
 
 /* Procducts, Company and Support sections */
 
-.items-list{
+#items-list{
     display: flex;
     flex-direction: column;
 }
-.items-list div { 
+#items-list div { 
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 60px;
+    text-align: center;
+    margin-bottom: 5%;
 }
-.items-list div h2{
-    margin-bottom: 30px;
+#items-list div h2{
+    margin-bottom: 2.5%;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
     color:#AACE9B;
 }
-.items-list div ul {
+#items-list div ul {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
-.items-list div li {
+#items-list div li {
     font-family: 'Roboto', sans-serif;
     font-style: bold;
     margin: 0 0 10px 0;
@@ -298,7 +278,7 @@ main {
     color: #373867;
     list-style-type: disc;
 }
-.items-list div a {
+#items-list div a {
     text-decoration: none;
     font-weight: bold;
     color: #373867;
