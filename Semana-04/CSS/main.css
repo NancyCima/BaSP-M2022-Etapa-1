@@ -318,7 +318,6 @@ fieldset {
     #welcome-section {
         width: 80%;
         align-items: flex-start;
-        flex-direction: row-reverse;
         margin-left: 10%;
     }
     #welcome-title {
@@ -326,6 +325,7 @@ fieldset {
     }
     #welcome-subtitle {
         font-size: 30px;
+        margin-left: 40%;
     }
     #welcome-text {
         font-size: 18px;
@@ -421,7 +421,6 @@ fieldset {
     #welcome-section {
         width: 90%;
         align-items: flex-start;
-        flex-direction: row-reverse;
         margin-left: 10%;
     }
     #welcome-title {
@@ -429,6 +428,7 @@ fieldset {
     }
     #welcome-subtitle {
         font-size: 35px;
+        margin-left: 25%;
     }
     #welcome-text {
         font-size: 22px;
@@ -495,4 +495,3 @@ fieldset {
     #our-history-p2 {
         font-size: 22px;
     }
-}
