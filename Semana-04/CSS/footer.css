@@ -9,9 +9,10 @@
 footer {
     display: flex;
     align-items: center;
+    align-content: center;
     flex-direction: column;
     padding-top: 2.5%;
-    width: 150%;
+    width: 180%;
     height: 150px;
     background-color: #AACE9B;
     z-index: 75;
