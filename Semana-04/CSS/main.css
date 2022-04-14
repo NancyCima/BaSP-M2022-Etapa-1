@@ -25,7 +25,7 @@ main {
 }
 #welcome-title {
     font-family: "roboto", sans-serif;
-    font-size: 72px;
+    font-size: 40px;
     font-weight: 700;
     color: #373867;
     width: 100%;
@@ -34,17 +34,16 @@ main {
 
 #welcome-subtitle {
     font-family: "roboto", sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 700;
     color: #373867;
     width: 100%;
-    margin-left: 80%;
-    
+    margin-left: 80%;  
 }
 
 #welcome-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     color: #373867;
     text-align: center;
@@ -95,14 +94,14 @@ main {
     margin: 40px;
     font-family: "roboto", sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     color: #373867;
 }
 #features-section p {
     margin: 0 20px 0 20px;
     font-family: "roboto", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center; 
     color: #373867;
 }
@@ -152,14 +151,14 @@ main {
     font-family: "roboto", sans-serif;
     font-weight: 700;
     color: #69a362;
-    font-size: 36px;
+    font-size: 22px;
     text-align: center;
     margin: 40px 20px 40px 20px;
 }
 .box p {
     font-family: "roboto", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     color: #373867;
     text-align: center;
 }
@@ -197,42 +196,44 @@ fieldset {
 }
 
 #form-data-field label {
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 #form-contact-field legend {
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .contact-div label{
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 700;
     color: #373867 ;
 }
 
 
-.contact-div input {
-
-}
-
 #message-field-div label{
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .submit-button {
     font-family: "roboto", sans-serif;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
     background-color: #DADADA;
     border-radius: 2px;
     width: 10%;
 }
+
+.submit-button:hover {
+    background-color: #AACE9B;
+}
+
 
 /* "Our History" section*/
 
@@ -245,14 +246,14 @@ fieldset {
     margin: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 35px;
     color: #373867;
 }
 .our-history-p1 {
     margin: 35px;
     font-family: "roboto", sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     color: #373867;
 }
@@ -261,7 +262,7 @@ fieldset {
     text-align: center;
     font-family: "roboto", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: #373867;
 }    
 
@@ -282,7 +283,7 @@ fieldset {
     margin-bottom: 2.5%;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 35px;
     text-transform: uppercase;
     color:#AACE9B;
 }
@@ -295,7 +296,7 @@ fieldset {
     font-family: 'Roboto', sans-serif;
     font-style: bold;
     margin: 0 0 10px 0;
-    font-size: 25px;
+    font-size: 22px;
     color: #373867;
     list-style-type: disc;
 }
