@@ -24,12 +24,12 @@ main {
     padding-top: 5%;
 }
 #welcome-title {
+    width: 100%;
+    margin: 2%;
     font-family: "roboto", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #373867;
-    width: 100%;
-    margin: 2%;
 }
 
 #welcome-subtitle {
@@ -304,4 +304,109 @@ fieldset {
     text-decoration: none;
     font-weight: bold;
     color: #373867;
+}
+
+
+/* BREAKPOINTS */
+
+/* Tablet  */
+
+@media only screen and (min-width: 768px) {
+
+    /* welcome section */
+
+    #welcome-section {
+        width: 80%;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        margin-left: 10%;
+    }
+    #welcome-title {
+        font-size: 45px;
+    }
+    #welcome-subtitle {
+        font-size: 30px;
+    }
+    #welcome-text {
+        font-size: 18px;
+    }
+
+    /* Features section */
+
+    .features-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .features-container .features-items {
+        display: flex;
+        flex-direction: row;
+    }
+    .features-container .features-items-reverse {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    #features-section h2 {
+        font-size: 40px;
+    }
+    #features-section h3 {
+        font-size: 25px;
+    }
+    .features-items p {
+        font-size: 16px;
+    }
+
+    /* Reasons why section */
+    .box h3 {
+        font-size: 27px;
+    }
+    .box p {
+        font-size: 18px;
+    }
+
+    /* Form */
+
+    #form-data-field legend {
+        font-size: 45px;
+    }
+    #form-data-field label {
+        font-size: 30px;
+    }
+    #form-contact-field legend {
+        font-size: 30px;
+    }
+    .contact-div label {
+        font-size: 20px;
+    }
+    #message-field-div label {
+        font-size: 20px;
+    }
+
+    /* Our history section */
+
+    #our-history h2 {
+        font-size: 35px;
+    }
+    .our-history-p1 {
+        font-size: 18px;
+    }
+    .our-history-p2 {
+        font-size: 18px;
+    }
+
+    /* Items lists section */
+
+    #items-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #items-list h2 {
+        font-size: 35px;
+    }
+    #items-list li {
+        font-size: 27px;
+    }
 }
