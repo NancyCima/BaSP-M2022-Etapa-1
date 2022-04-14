@@ -207,9 +207,15 @@ fieldset {
     text-transform: uppercase;
 }
 
-#form-contact-field label {
+.contact-div label{
     font-size: 9px;
     font-weight: 700;
+    color: #373867 ;
+}
+
+
+.contact-div input {
+
 }
 
 #message-field-div label{
