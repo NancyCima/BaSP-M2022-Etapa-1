@@ -410,3 +410,89 @@ fieldset {
         font-size: 27px;
     }
 }
+
+* Desktop */
+@media only screen and (min-width: 1024px) {
+    main {
+        margin-left: 25%;
+    }
+    /* Welcome section */
+
+    #welcome-section {
+        width: 90%;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        margin-left: 10%;
+    }
+    #welcome-title {
+        font-size: 50px;
+    }
+    #welcome-subtitle {
+        font-size: 35px;
+    }
+    #welcome-text {
+        font-size: 22px;
+    }
+    
+    /* Features section */
+
+    .features-container .features-items {
+        display: flex;
+        flex-direction: row;
+    }
+    .features-container .features-items-reverse {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    #features-section h2 {
+        font-size: 45px;
+    }
+    #features-section h3 {
+        font-size: 30px;
+    }
+    .features-items p {
+        font-size: 18px;
+    }
+
+    /* Reasons why section */
+
+    .box h3 {
+        font-size: 30px;
+    }
+    .box p {
+        font-size: 20px;
+    }
+
+    /* Form */
+  
+    #form-data-field legend {
+        font-size: 50px;
+    }
+    #form-data-field label {
+        font-size: 30px;
+    }
+    #form-contact-field legend {
+        font-size: 40px;
+    }
+    .contact-div label {
+        font-size: 25px;
+    }
+    #message-field-div label {
+        font-size: 30px;
+    }
+    .submit-button {
+        font-size: 25px;
+    }
+
+    /* our history section */
+    #our-history h2 {
+        font-size: 40px;
+    }
+    .our-history-p1 {
+        font-size: 22px;
+    }
+    #our-history-p2 {
+        font-size: 22px;
+    }
+}
