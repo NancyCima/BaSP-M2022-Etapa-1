@@ -130,7 +130,7 @@ main {
 
 #reasons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -166,7 +166,7 @@ main {
 /* Form */
 
 form {
-    padding: 12.5%;
+    padding: 5%;
 }
 
 input, textarea {
@@ -174,7 +174,9 @@ input, textarea {
     border-radius: 2px;
     border-color: unset;
     border-style: none;
+    margin: 2%;
 }
+
 textarea {
     width: 100%;
 }
@@ -184,11 +186,11 @@ fieldset {
     flex-direction: column;
 }
 
-#form-data-field h2 {
+#form-data-field legend {
     text-align: center;
     margin-bottom: 2%;
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     color: #373867;
 }
@@ -196,11 +198,13 @@ fieldset {
 #form-data-field label {
     font-size: 9px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
-#form-contact-field h2 {
+#form-contact-field legend {
     font-size: 9px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 #form-contact-field label {
@@ -208,10 +212,19 @@ fieldset {
     font-weight: 700;
 }
 
-#submit-button {
+#message-field-div label{
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.submit-button {
     font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
     background-color: #DADADA;
     border-radius: 2px;
+    width: 10%;
 }
 
 /* "Our History" section*/
