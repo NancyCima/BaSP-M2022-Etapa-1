@@ -1,14 +1,16 @@
+/* Styles CSS code for Trackgenix (by Nancy L. Cima) */
+
 * {
     box-sizing: border-box;
   }
-
-.line-separator {
-    margin: 50px 25px 50px 25px; 
-    border: 5px solid #AACE9B;
-}
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.line-separator {
+    margin: 50px 25px 50px 25px; 
+    border: 5px solid #AACE9B;
 }
