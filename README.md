@@ -23,11 +23,11 @@ Simple, because Trackgenix will help your company with:
 
 
 ### Content
-In this repository you will find:
-
-  - "A HTML index file whit the structure of the landing page"
+In this repository you will find a folder with the code for each of the versions of Trackgenix which may include:
+  - "An HTML index file whit the structure of the landing page"
   - "An "assets" folder whit the images used in the page"
   - "A "CSS" folder that includes a set of CSS stylesheets that sum up the design of the landing page and a CSS reset file that helps normalize the CSS code"
+  - "A "exercises" folder that has a group of Javascript algorithms that apply the fundamentals of said programming language"
 
 ### Instalation and Usage
 Trackgenix does not need installation. All you have to do is sing in!
@@ -60,7 +60,8 @@ We are working to improve Trackgenix so your company can have the best results. 
    
    ##### Week 05 Version:
 
-    -  In the fifth-week version, Trackgenix´s last version was corrected and updated to fulfill the wishes of our costumers. Besides that, fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, were applyed by creating algorithms to manipulate strings,....... .
+    -  In the fifth-week version, Trackgenix´s last version was corrected and updated to fulfill the wishes of our customers. Besides that, the fundamentals of JavaScript, including variables, arrays, loops, and functions, were applied by creating algorithms to manipulate them.
+    The updates can be seen following this [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-05/index.html).
 
    
 *By: Nancy L. Cima - Date: 17/04/2022*
