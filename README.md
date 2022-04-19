@@ -42,7 +42,7 @@ We are working to improve Trackgenix so your company can have the best results. 
   #### Released Versions:
 
    ##### Week 01 Version: 
-     - In the first week, Trackgenix was designed in [Figma](https://www.figma.com/file/VikOLkc7mTH1me1UFCZUw1/BaSP-2022-Trackgenix-Paloma?node-id=302%3A367).
+     - In the first week, Trackgenix was designed in [Figma](https://www.figma.com/file/VikOLkc7mTH1me1UFCZUw1/BaSP-2022-Trackgenix-Paloma?node-id=302%3A367) .
 
    ##### Week 02 Version:
 
@@ -56,7 +56,7 @@ We are working to improve Trackgenix so your company can have the best results. 
 
    ##### Week 04 Version:
 
-    -  In the fourth-week version, Trackgenix was redesigned to provide the best user experience when viewing the website using different devices like desktops, tablets, and phones. The work carried out can be seen at the following [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-04/index.html).
+    -  In the fourth-week version, Trackgenix was redesigned to provide the best user experience when viewing the website using different devices like desktops, tablets, and phones. The work carried out can be seen at the following [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-04/index.html) .
    
    ##### Week 05 Version:
 
