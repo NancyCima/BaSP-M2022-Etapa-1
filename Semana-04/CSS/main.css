@@ -75,7 +75,7 @@ main {
 #features-section h2 {
     font-family: "roboto", sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     color: #373867;
     margin-bottom: 5%;
 }
@@ -202,19 +202,19 @@ fieldset {
     text-align: center;
     margin-bottom: 2%;
     font-family: "Roboto", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: #373867;
 }
 
 #form-data-field label {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 #form-contact-field legend {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -227,7 +227,7 @@ fieldset {
 
 
 #message-field-div label {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -263,7 +263,7 @@ fieldset {
     margin: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     color: #373867;
 }
 
@@ -271,7 +271,7 @@ fieldset {
     margin: 35px;
     font-family: "roboto", sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     color: #373867;
 }
@@ -501,6 +501,10 @@ fieldset {
     }
 
     /* Reasons why section */
+
+    #reasons .box {
+        width: 35%;
+    }
 
     .box h3 {
         font-size: 25px;
