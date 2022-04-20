@@ -11,7 +11,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    /*margin-left: 20%;*/
+    margin-left: 20%;
 }
 
 /* Welcome section*/
