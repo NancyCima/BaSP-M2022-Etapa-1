@@ -8,10 +8,10 @@ console.log('Excercise 4.a:');
 
 var numeroAleatorio = Math.random();
 console.log(numeroAleatorio)
-if (numeroAleatorio >= 0,5) {
-    alert('Greater than 0,5');
+if (numeroAleatorio >= 0.5) {
+    alert('Greater than 0.5');
 } else {
-    alert('Lower than 0,5');
+    alert('Lower than 0.5');
 }
 
 /* b) Crear una variable “Age” que contenga un número entero entre 0 y 100
