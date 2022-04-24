@@ -1,0 +1,547 @@
+/* Main CSS code for Trackgenix (by Nancy L. Cima) */
+
+/* Fonts /*
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Color Palette: #000 (black), #fff (white), #AACE9B (ligth green), #373867 (dark blue), #69A362 (green), #DADADA (grey)*/
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+/* Welcome section*/
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+#welcome-title {
+    width: 100%;
+    margin: 2%;
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #373867;
+}
+
+#welcome-subtitle {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #373867;
+    width: 100%;
+    margin-left: 2%;  
+}
+
+#welcome-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#welcome-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    color: #373867;
+    text-align: center;
+    margin: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#welcome-content img {
+    width: 60%;
+    height: auto;
+    margin: 50px 0 50px 0;
+}
+
+/* Features section */
+
+#features-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#features-section h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #373867;
+    margin-bottom: 5%;
+}
+
+#features-section .features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-container .features-items {
+    display: flex;
+    align-items: center;
+}
+
+.features-container .features-items-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#features-section h3 {
+    margin: 40px;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #373867;
+}
+
+#features-section p {
+    margin: 0 20px 0 20px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center; 
+    color: #373867;
+}
+
+#clock {
+    width: 55%;
+    height: auto;
+}
+
+#gestion {
+    width: 65%;
+    height: auto;
+    padding: 0 10%;
+    margin-bottom: 5%;
+}
+
+#report {
+    width: 45%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#roles {
+    width: 60%;
+    height: auto;
+}
+
+/* Reasons why section */
+
+#reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#reasons .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #AACE9B;
+}
+
+.box h3 {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    color: #69a362;
+    font-size: 22px;
+    text-align: center;
+    margin: 40px 20px 40px 20px;
+}
+
+.box p {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #373867;
+    text-align: center;
+}
+
+/* Form */
+
+form {
+    padding: 5%;
+}
+
+input, textarea {
+    background-color: #DADADA;
+    border-radius: 2px;
+    border-color: unset;
+    border-style: none;
+    margin: 2%;
+    padding: 1%;
+}
+
+textarea {
+    width: 100%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-data-field legend {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #373867;
+}
+
+#form-data-field label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#form-contact-field legend {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-div label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #373867 ;
+}
+
+
+#message-field-div label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.submit-button {
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #DADADA;
+    border-radius: 2px;
+    width: 10%;
+}
+
+.submit-button:hover {
+    background-color: #AACE9B;
+}
+
+.submit-button input:hover {
+    background-color: #AACE9B;
+}
+
+
+/* "Our History" section*/
+
+#our-history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#our-history h2 {
+    margin: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #373867;
+}
+
+.our-history-p1 {
+    margin: 35px;
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #373867;
+}
+
+.our-history-p2 {
+    margin: 20px 2% 0 2%;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #373867;
+}    
+
+/* Procducts, Company and Support sections */
+
+#items-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#items-list div { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#items-list div h2 {
+    margin-bottom: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#AACE9B;
+}
+
+#items-list div ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#items-list div li {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #373867;
+    list-style-type: disc;
+}
+
+#items-list div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #373867;
+}
+
+
+/* BREAKPOINTS */
+
+/* Tablet  */
+
+@media only screen and (min-width: 768px) {
+
+    /* welcome section */
+
+    #welcome-section {
+        width: 80%;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+
+    #welcome-title {
+        font-size: 45px;
+    }
+
+    #welcome-subtitle {
+        font-size: 30px;
+        margin-left: 40%;
+    }
+
+    #welcome-text {
+        font-size: 18px;
+    }
+
+    /* Features section */
+
+    .features-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .features-container .features-items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .features-container .features-items-reverse {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #features-section h2 {
+        font-size: 40px;
+    }
+
+    #features-section h3 {
+        font-size: 25px;
+    }
+
+    .features-items p {
+        font-size: 16px;
+    }
+
+    /* Reasons why section */
+    .box h3 {
+        font-size: 27px;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+
+    /* Form */
+
+    #form-data-field legend {
+        font-size: 45px;
+    }
+
+    #form-data-field label {
+        font-size: 30px;
+    }
+
+    #form-contact-field legend {
+        font-size: 30px;
+    }
+
+    .contact-div label {
+        font-size: 20px;
+    }
+
+    #message-field-div label {
+        font-size: 20px;
+    }
+
+    /* Our history section */
+
+    #our-history h2 {
+        font-size: 35px;
+    }
+
+    .our-history-p1 {
+        font-size: 18px;
+    }
+
+    .our-history-p2 {
+        font-size: 18px;
+    }
+
+
+    /* Items lists section */
+
+    #items-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #items-list h2 {
+        font-size: 35px;
+    }
+
+    #items-list li {
+        font-size: 27px;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+    main {
+        margin-left: 20%;
+    }
+}
+
+    /* Welcome section */
+
+    #welcome-section {
+        width: 80%;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+    #welcome-title {
+        font-size: 40px;
+    }
+    #welcome-subtitle {
+        font-size: 30px;
+        margin-left: 2%;
+    }
+    #welcome-text {
+        font-size: 18px;
+    }
+    
+    /* Features section */
+
+    .features-container .features-items {
+        display: flex;
+        flex-direction: row;
+    }
+    .features-container .features-items-reverse {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    #features-section h2 {
+        font-size: 35px;
+    }
+    #features-section h3 {
+        font-size: 25px;
+    }
+    .features-items p {
+        font-size: 18px;
+    }
+
+    /* Reasons why section */
+
+    #reasons .box {
+        width: 35%;
+    }
+
+    .box h3 {
+        font-size: 25px;
+    }
+    .box p {
+        font-size: 18px;
+    }
+
+    /* Form */
+  
+    #form-data-field legend {
+        font-size: 35px;
+    }
+    #form-data-field label {
+        font-size: 20px;
+    }
+    #form-contact-field legend {
+        font-size: 20px;
+    }
+    .contact-div label {
+        font-size: 14px;
+    }
+    #message-field-div label {
+        font-size: 22px;
+    }
+    .submit-button {
+        font-size: 30px;
+    }
+
+    /* our history section */
+    #our-history h2 {
+        font-size: 35px;
+    }
+    .our-history-p1 {
+        font-size: 16px;
+    }
+    #our-history-p2 {
+        font-size: 16px;
+    }
