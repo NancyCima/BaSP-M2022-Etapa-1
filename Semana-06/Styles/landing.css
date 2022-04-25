@@ -10,8 +10,7 @@
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
-    margin-left: 20%;
+    margin: 20% 2% 0 2%
 }
 
 /* Welcome section*/
@@ -340,6 +339,10 @@ fieldset {
 
     /* welcome section */
 
+    main {
+        margin: 10% 0 0 20%;
+    }
+
     #welcome-section {
         width: 80%;
         align-items: flex-start;
@@ -457,10 +460,10 @@ fieldset {
 /* Desktop */
 
 @media only screen and (min-width: 1024px) {
+    
     main {
         margin-left: 20%;
     }
-}
 
     /* Welcome section */
 
