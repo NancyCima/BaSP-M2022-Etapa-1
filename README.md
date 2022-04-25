@@ -24,10 +24,11 @@ Simple, because Trackgenix will help your company with:
 
 ### Content
 In this repository you will find a folder with the code for each of the versions of Trackgenix which may include:
-  - "An HTML index file whit the structure of the landing page"
-  - "An "assets" folder whit the images used in the page"
+  - "An HTML index file with the structure of the landing page"
+  - "An "Assets" folder with the images used in the page"
   - "A "CSS" folder that includes a set of CSS stylesheets that sum up the design of the landing page and a CSS reset file that helps normalize the CSS code"
   - "A "exercises" folder that has a group of Javascript algorithms that apply the fundamentals of said programming language"
+  - "A "Javascript" folder containing the JS files that give funtionality to Trackgenix"
 
 ### Instalation and Usage
 Trackgenix does not need installation. All you have to do is sing in!
@@ -56,13 +57,21 @@ We are working to improve Trackgenix so your company can have the best results. 
 
    ##### Week 04 Version:
 
-    -  In the fourth-week version, Trackgenix was redesigned to provide the best user experience when viewing the website using different devices like desktops, tablets, and phones. The work carried out can be seen at the following [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-04/index.html) .
+    -  In the fourth-week version, Trackgenix was redesigned to provide the best user experience when viewing the website
+       using different devices like desktops, tablets, and phones. The work carried out can be seen at the following 
+       [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-04/index.html)  .
    
    ##### Week 05 Version:
 
     -  In the fifth-week version, Trackgenix´s last version was corrected and updated to fulfill the wishes of our customers. Besides that, the fundamentals of JavaScript, including variables, arrays, loops, and functions, were applied by creating algorithms to manipulate them.
     The updates can be seen following this [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-05/index.html).
 
+   ##### Week 06 Version:
+
+    -  In the sixth-week version, functionalities were developed for Trackgenix. A log-in page and a sign-up page for
+    employees were added to the last version, with its corresponding data validation processes, to ensure that the input information is clean, correct, and useful.
+    The updates can be seen following this [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-06/Views/index.html) 
+
    
-*By: Nancy L. Cima - Date: 17/04/2022*
+*By: Nancy L. Cima - Date: 24/04/2022*
 
