@@ -36,6 +36,7 @@ main div {
 #sign-upForm {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #sign-upForm label {
@@ -69,4 +70,13 @@ main div {
 span {
     color: red; 
     font-size: 10px; 
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+    #sign-upForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
