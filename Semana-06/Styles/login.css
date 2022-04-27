@@ -17,7 +17,7 @@ main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20% 0 20% 0;
+    margin: 50% 0 0 0;
     width: 350px;
     height: 400px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.46);
@@ -87,6 +87,31 @@ form {
     transition: 0.3s;
 }
 
+#resetPassword {
+    align-self: flex-end;
+    margin: 18% 0 0 0;
+}
+
+#resetPassword:hover {
+    cursor: pointer;
+}
+
+#resetPassword a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+#resetPassword a:hover {
+    color: #373867;
+}
+
+/* Errors */
+span {
+    color: red; 
+    font-size: 10px;  
+}
 
 /* Desktop */
 
@@ -95,5 +120,9 @@ form {
     main {
         margin-top: 5%;
         margin-left: 10%;
+    }
+
+    main div{
+     margin: 20% 0 20% 0;
     }
 }

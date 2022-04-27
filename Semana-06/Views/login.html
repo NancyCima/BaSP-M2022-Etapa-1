@@ -44,17 +44,24 @@
                 <form>
                     <label class="loginInputText">
                         <img class="loginImg" src="../Assets/login-email.png" alt="Envelope">
-                        <input id="emal" type="email" placeholder="your@email.com" required>
+                        <input id="email" type="email" placeholder="your@email.com" required>
+                        <span>
+                            <p id="alertEmail"></p>
+                        </span>
                     </label>
                     <label class="loginInputText">
                         <img class="loginImg" src="../Assets/padlock.png" alt="Lock">
                         <input id="pass" type="text" placeholder="******" required>
+                        <span> 
+                            <p id="alertPassword"></p>
+                        </span>
                     </label>
                     <label class="loginInputCheckbox">
                         <input type="checkbox" checked="checked">
                         <p>Remember me</p>
                     </label>
                         <input class="loginSubmit" type="submit" value="Agree">
+                        <p id="resetPassword"> <a href="#">Reset Password</a></p>
                 </form>
             </div>
         </main>

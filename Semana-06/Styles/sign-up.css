@@ -19,9 +19,10 @@ main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10% 0 20% 0;
-    width: 45%;
-    height: 75%;
+    margin: 25% 0 20% 0;
+    padding: 5%;
+    width: auto;
+    height: auto;
     box-shadow: 0px 4px 4px #DADADA;
     border-radius: 5px;
 }
@@ -34,11 +35,15 @@ main div {
 
 #sign-upForm {
     display: flex;
-    justify-content:  center;
+    justify-content: center;
 }
 
+#sign-upForm label {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 #sign-upForm input {
-    margin: 5% 5% 0 7%;
+    margin: 5% 5% 0 0%;
 }
 
 .sign-upSubmit {
@@ -56,6 +61,12 @@ main div {
 }
 .sign-upSubmit:hover {
     cursor: pointer;
-    background-color: #e3eae0;
+    background-color: #DADADA;
     transition: 0.3s;
+}
+
+/* Errors */
+span {
+    color: red; 
+    font-size: 10px; 
 }
