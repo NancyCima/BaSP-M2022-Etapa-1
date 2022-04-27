@@ -34,8 +34,8 @@ header div p {
 }
 
 header div img { 
-  width: 25%;
-  height: auto;
+  width: auto;
+  height: 10%;
   margin: 5%;
   background-color: #69A362;
   border-radius: 10%;

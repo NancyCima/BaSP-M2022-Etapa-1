@@ -19,7 +19,7 @@ main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 25% 0 20% 0;
+    margin: 40% 0 20% 0;
     padding: 5%;
     width: auto;
     height: auto;
@@ -60,6 +60,7 @@ main div {
     text-decoration: none;
     background-color: #AACE9B;
 }
+
 .sign-upSubmit:hover {
     cursor: pointer;
     background-color: #DADADA;
@@ -75,6 +76,12 @@ span {
 /* Desktop */
 
 @media only screen and (min-width: 1024px) {
+
+    main div {
+    margin: 20% 0 20% 0;
+}
+
+
     #sign-upForm {
     display: flex;
     justify-content: center;
