@@ -17,6 +17,14 @@ header {
   background-color: #AACE9B;
 }
 
+header div img { 
+  width: auto;
+  height: 60%;
+  margin: 5%;
+  background-color: #69A362;
+  border-radius: 10%;
+}
+
 header div h1 {
     margin-right: 10px;
     font-family:'Roboto', sans-serif;
@@ -31,14 +39,6 @@ header div p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #69A362;
-}
-
-header div img { 
-  width: auto;
-  height: 10%;
-  margin: 5%;
-  background-color: #69A362;
-  border-radius: 10%;
 }
 
 
@@ -58,7 +58,6 @@ header div img {
 /* Desktop */
 
 @media only screen and (min-width: 1024px) {
-
     header img {
         visibility: hidden;
     }
