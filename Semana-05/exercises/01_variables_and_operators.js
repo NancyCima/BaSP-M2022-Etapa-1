@@ -14,6 +14,7 @@ console.log('The result of adding both numbers is:', suma);
 /* b) Crear dos variables de tipo String y concatenarlas guardando  el resultado en una 3er variable. */
 
 console.log('Excercise 1.b:');
+
 var primerString = 'Nombre';
 var segundoString = 'Apellido';
 var concatenacion = primerString + ' ' + segundoString;
@@ -23,6 +24,7 @@ console.log('The result of the concatenation of the strings is:', concatenacion)
 guardando el resultado de la suma en una 3er variable (utilizar length). */
 
 console.log('Excercise 1.c:');
+
 var tercerString = 'Unicornio';
 var cuartoString = 'Multicolor';
 var largoSuma = tercerString.length + cuartoString.length;

@@ -6,7 +6,6 @@
 
 /* Color Palette: #000 (black), #fff (white), #AACE9B (ligth green), #373867 (dark blue), #69A362 (green), #DADADA (grey)*/
 
-
 aside {
     display: flex;
     flex-direction: column;
@@ -43,6 +42,7 @@ aside nav li {
 
 aside nav li:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
 aside nav a {
@@ -70,7 +70,7 @@ aside nav a {
     margin: 0 0 10px 0;
     font-weight: 700;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 #contact-section p {
@@ -78,14 +78,14 @@ aside nav a {
     font-weight: 400;
     font-size: 14px;
     text-align: left;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 #contact-section ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ aside nav a {
     font-weight: 700;
     font-size: 15px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 
