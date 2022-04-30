@@ -78,7 +78,7 @@ console.log ('Exercise 6.e: ');
 function sumaValidator(a,b) {
     if (typeof a == "number" && typeof b == "number" ) {
         if (validateInteger(a) == true && validateInteger(b) == true) {
-            return a + b;
+            return true;
         } else {
             if (validateInteger(a) == false) {
                 alert("ERROR! The variable " + a + " is not an integer");
