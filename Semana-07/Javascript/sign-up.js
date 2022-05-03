@@ -25,7 +25,9 @@ window.onload = function () {
     }
     nameInputElement.onfocus = function () {
         nameInputElement.style = "border-color: none";
-        alertName.removeChild(alertMessageName);
+        if (validationName == false) {
+            alertName.removeChild(alertMessageName);
+        }
     }
 
     /* Last name validation */
@@ -53,7 +55,9 @@ window.onload = function () {
     }
     lastNameInputElement.onfocus = function () {
         lastNameInputElement.style = "border-color: none";
-        alertLName.removeChild(alertMessageLName)
+        if (validationLastName == false) {
+            alertLName.removeChild(alertMessageLName)
+        }
     }
 
     /* DNI validation */
@@ -75,7 +79,9 @@ window.onload = function () {
     }
     dniInputElement.onfocus = function () {
         dniInputElement.style = "border-color: none";
-        alertDNI.removeChild(alertMessageDNI);
+        if (validationDNI == false) {
+            alertDNI.removeChild(alertMessageDNI);
+        }
     }
 
     /* Date validation */
@@ -86,13 +92,13 @@ window.onload = function () {
 
     dateInputElement.onblur = function () {
         var date = dateInputElement.value.replace(/[/]/g, '');
-        var slash = 0;
+       /* var slash = 0;
         for (var i = 0; i < dateInputElement.value.length; i++) {
-            if (dateInputElement.value[i] == '/') {
+            if (dateInputElement.value[i] == '-') {
                 slash++;
             }
-        }
-        if (slash == 2 && isNaN(date) == false) {
+        }*/
+        if (/*slash == 2 &&*/ !isNaN(date) ) {
             dateInputElement.style = "border: solid 2px  #48e525; border-radius: 5px";
             validationDate = true;
         } else {
@@ -105,7 +111,9 @@ window.onload = function () {
 
     dateInputElement.onfocus = function () {
         dateInputElement.style = "border-color: none";
-        alertDate.removeChild(alertMessageDate);
+        if (validationDate == false) {
+         alertDate.removeChild(alertMessageDate);
+        }
     }
 
     /* Phone number validation */
@@ -127,7 +135,9 @@ window.onload = function () {
     }
     phoneNumberInputElement.onfocus = function () {
         phoneNumberInputElement.style = "border-color: none";
-        alertPhone.removeChild(alertMessagePhone);
+        if (validationPhone == false) {
+            alertPhone.removeChild(alertMessagePhone);
+        }
     }
 
     /* Address validation */
@@ -165,7 +175,9 @@ window.onload = function () {
     }
     addressInputElement.onfocus = function () {
         addressInputElement.style = "border-color: none";
-        alertAddress.removeChild(alertMessageAddress);
+        if (validationAddress == false) {
+            alertAddress.removeChild(alertMessageAddress);
+        }
     }
 
     /* Location validation */
@@ -187,7 +199,9 @@ window.onload = function () {
     }
     locationInputElement.onfocus = function () {
         locationInputElement.style = "border-color: none";
-        alertLocation.removeChild(alertMessageLocation);
+        if (validationLocation == false) {
+            alertLocation.removeChild(alertMessageLocation);
+        }
     }
 
     /* Postal code validation */
@@ -209,7 +223,9 @@ window.onload = function () {
     }
     postalCodeInputElement.onfocus = function () {
         postalCodeInputElement.style = "border-color: none";
-        alertCode.removeChild(alertMessageCode)
+        if (validationCode == false) {
+            alertCode.removeChild(alertMessageCode)
+        }
     }
 
     /* Email validation */
@@ -231,7 +247,9 @@ window.onload = function () {
     }
     emailInputElement.onfocus = function () {
         emailInputElement.style = "border-color: none";
-        alertEmail.removeChild(alertMessageEmail);
+        if (validationEmail == false) {
+            alertEmail.removeChild(alertMessageEmail);
+        }
     }
 
 
@@ -254,11 +272,11 @@ window.onload = function () {
                 letterSum = true;
             }
         }
-        if (password.value.length >= 8 && numberSum == true && letterSum == true) {
-            password.style = "border: solid 2px  #48e525; border-radius: 5px";
+        if (passwordInputElement.value.length >= 8 && numberSum == true && letterSum == true) {
+            passwordInputElement.style = "border: solid 2px  #48e525; border-radius: 5px";
             validationPassword = true;
         } else {
-            password.style = "border: solid 2px red; border-radius: 5px";
+            passwordInputElement.style = "border: solid 2px red; border-radius: 5px";
             alertPassword.appendChild(alertMessagePassword);
             validationPassword = false
             alert("Insert a valid password. It should have at least 8 characters, including letters and numbers");
@@ -266,7 +284,9 @@ window.onload = function () {
     }
     passwordInputElement.onfocus = function () {
         passwordInputElement.style = "border-color: none";
-        alertPassword.removeChild(alertMessagePassword);
+        if (validationPassword == false) {
+            alertPassword.removeChild(alertMessagePassword);
+        }
     }
 
     /* Repeat password validation */
@@ -288,10 +308,11 @@ window.onload = function () {
     }
     repPasswordInputElement.onfocus = function () {
         repPasswordInputElement.style = "border-color: none";
-        alertRepPassword.removeChild(alertMessageRepPassword);
+        if (validationRepPassword == false) {
+            alertRepPassword.removeChild(alertMessageRepPassword);
+        }
     }
-
-
+ 
     /* Submit event */
     var submitSignup = document.getElementById("sign-upSubmit");
     var url = "https://basp-m2022-api-rest-server.herokuapp.com/signup";

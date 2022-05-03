@@ -1,5 +1,6 @@
 window.onload = function () {
 
+
   /* Email validation */
     var emailInputElement = document.getElementById("email");
     var alertEmail = document.getElementById("alertEmail");
@@ -18,9 +19,11 @@ window.onload = function () {
       }
     }
 
-    emailInputElement.onfocus = function () {
+        emailInputElement.onfocus = function () {
         emailInputElement.style = "border-color: none";
-        alertEmail.removeChild(alertMessageEmail);
+        if (validationEmail == false) {
+          alertEmail.removeChild(alertMessageEmail);
+        }
     }
 
   /* Password validation */
@@ -53,9 +56,11 @@ window.onload = function () {
         }
       }
 
-      passwordInputElement.onfocus = function () {
+        passwordInputElement.onfocus = function () {
         passwordInputElement.style = "border-color: none";
-        alertPassword.removeChild(alertMessagePassword);
+        if (validationEmail == false) {
+          alertPassword.removeChild(alertMessagePassword);
+        }
       }
 
  /* Submit event */
@@ -63,6 +68,8 @@ window.onload = function () {
  var url = "https://basp-m2022-api-rest-server.herokuapp.com/login";
 
  function infoSubmit() {
+  console.log(validationEmail)
+  console.log(validationPassword)
      if (validationEmail === true &&
          validationPassword === true) {
          fetch(url + "?email=" + emailInputElement.value + "&password=" + passwordInputElement.value)
