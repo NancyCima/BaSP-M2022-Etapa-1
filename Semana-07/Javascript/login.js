@@ -4,15 +4,17 @@ window.onload = function () {
     var emailInputElement = document.getElementById("email");
     var alertEmail = document.getElementById("alertEmail");
     var alertMessageEmail = document.createTextNode("Invalid email address.");
+    var validationEmail;
 
     emailInputElement.onblur = function () {
       if (/[a-z0-9]+@[a-z]+\.[a-z]{2,3}/.test(emailInputElement.value)) {
         emailInputElement.style = "border: solid 2px  #48e525; border-radius: 5px";
-        validation++;
+        validationEmail = true;
       } else {
         emailInputElement.style = "border: solid 2px red; border-radius: 5px";
         alertEmail.appendChild(alertMessageEmail)
         alert("Invalid email address. Please try again.")
+        validationEmail = false;
       }
     }
 
@@ -25,6 +27,7 @@ window.onload = function () {
     var passwordInputElement = document.getElementById("pass");
     var alertPassword = document.getElementById("alertPassword");
     var alertMessagePassword = document.createTextNode("The password should consist of at least 8 numbers and letters.");
+    var validationPassword;
 
     passwordInputElement.onblur = function () {
       var numberSum = false;
@@ -39,13 +42,14 @@ window.onload = function () {
           letterSum = true;
         }
       }
-      if (passwordInputElement.value.length > 8 && numberSum == true && letterSum == true) {
+      if (passwordInputElement.value.length >= 8 && numberSum == true && letterSum == true) {
           passwordInputElement.style = "border: solid 2px  #48e525; border-radius: 5px";
-          validation++;
+          validationPassword = true;
         } else {
           passwordInputElement.style = "border: solid 2px red; border-radius: 5px";
           alert("The password should consist of numbers and letters. Please, insert a valid password.")
           alertPassword.appendChild(alertMessagePassword);
+          validationPassword = false;
         }
       }
 
@@ -54,8 +58,33 @@ window.onload = function () {
         alertPassword.removeChild(alertMessagePassword);
       }
 
+ /* Submit event */
+ var loginSubmit = document.getElementById("loginSubmit");
+ var url = "https://basp-m2022-api-rest-server.herokuapp.com/login";
 
-    //if ((/[a-z0-9]+@[a-z]+\.[a-z]{2,3}/.test(emailInputElement.value)) && (passwordInputElement.value.length > 8 && numberSum == true && letterSum == true)) {
-      //alert("nnn") }//
-      
+ function infoSubmit() {
+     if (validationEmail === true &&
+         validationPassword === true) {
+         fetch(url + "?email=" + emailInputElement.value + "&password=" + passwordInputElement.value)
+             .then(function (response) {
+                 return response.json();
+             })
+             .then(function (res) {
+                 if (res.succes) {
+                     alert("Email: " + emailInputElement.value + "Password: " + passwordInputElement.value);
+                 } else {
+                     alert(res.msg);
+                 }
+             })
+             .catch(function (err) {
+                 alert(err.errors[0].msg);
+             });
+     } else {
+         alert("error");
+     }
+ }
+ loginSubmit.onclick = function (e) {
+     e.preventDefault();
+     infoSubmit();
+ }
 }

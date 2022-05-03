@@ -71,7 +71,7 @@ form {
     font-size: 13px;
 }
 
-.loginSubmit {
+#loginSubmit {
     width: 100px;
     height: 30px;
     margin-top: 20%;
@@ -85,7 +85,7 @@ form {
     text-decoration: none;
 }
 
-.loginSubmit:hover {
+#loginSubmit:hover {
     cursor: pointer;
     background-color: #DADADA;
     transition: 0.3s;

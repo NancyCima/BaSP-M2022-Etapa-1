@@ -43,11 +43,12 @@ main div {
     margin-left: 2%;
     margin-right: 2%;
 }
+
 #sign-upForm input {
     margin: 5% 5% 0 0%;
 }
 
-.sign-upSubmit {
+#sign-upSubmit {
     width: auto;
     height: auto;
     margin-top: 10%;
@@ -61,7 +62,7 @@ main div {
     background-color: #AACE9B;
 }
 
-.sign-upSubmit:hover {
+#sign-upSubmit:hover {
     cursor: pointer;
     background-color: #DADADA;
     transition: 0.3s;
@@ -82,11 +83,16 @@ span {
 @media only screen and (min-width: 768px) {
     main div {
         margin: 20% 0 20% 0;
+        height: 450px;
 }
     #sign-upForm {
         display: flex;
         justify-content: center;
         flex-direction: row;
+}
+
+#sign-upForm input {
+    font-size: 18px;
 }
 
 /* Desktop */
