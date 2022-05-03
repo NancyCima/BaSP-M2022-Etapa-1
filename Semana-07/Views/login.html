@@ -1,0 +1,83 @@
+<!-- HTML code of the landing page for Trackgenix S.A. (by Nancy L. Cima) -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/reset.css">
+        <link rel="stylesheet" href="../Styles/header.css">
+        <link rel="stylesheet" href="../Styles/sidebar.css">
+        <link rel="stylesheet" href="../Styles/login.css">
+        <link rel="stylesheet" href="../Styles/footer.css">
+        <link rel="stylesheet" href="../Styles/styles.css">
+        <script src="../Javascript/login.js"></script>
+        <title>Trackgenix S.A. - Log In</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="../Assets/menu-hamburguesa.png" alt="menu">
+            </div>
+            <div>
+                <h1>
+                    Trackgenix  
+                </h1>
+                <p>
+                    We are Trackgenix  
+                </p>
+            </div>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sign-up.html">Sing Up</a></li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div>
+                <h2 id="login">
+                    Log In
+                </h2>
+                <form>
+                    <label class="loginInputText">
+                        <img class="loginImg" src="../Assets/login-email.png" alt="Envelope">
+                        <input id="email" type="email" placeholder="your@email.com" required>
+                        <span>
+                            <p id="alertEmail"></p>
+                        </span>
+                    </label>
+                    <label class="loginInputText">
+                        <img class="loginImg" src="../Assets/padlock.png" alt="Lock">
+                        <input id="pass" type="text" placeholder="******" required>
+                        <span> 
+                            <p id="alertPassword"></p>
+                        </span>
+                    </label>
+                    <label class="loginInputCheckbox">
+                        <input type="checkbox" checked="checked">
+                        <p>
+                            Remember me
+                        </p>
+                    </label>
+                        <input class="loginSubmit" type="submit" value="Agree">
+                        <p id="resetPassword">
+                            <a href="#">Reset Password</a>
+                        </p>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>
+                Rosario, Santa Fe - Argentina
+            </p>
+            <p>
+                Copyright &copy; 2022 Trackgenix SA. All rights reserved.
+            </p>
+        </footer>  
+    </body>
+</html>

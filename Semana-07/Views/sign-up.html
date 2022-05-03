@@ -1,0 +1,108 @@
+<!-- HTML code of the sign-up page for Trackgenix S.A. (by Nancy L. Cima) -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/reset.css">
+        <link rel="stylesheet" href="../Styles/styles.css">
+        <link rel="stylesheet" href="../Styles/header.css">
+        <link rel="stylesheet" href="../Styles/sidebar.css">
+        <link rel="stylesheet" href="../Styles/footer.css">
+        <link rel="stylesheet" href="../Styles/sign-up.css">
+        <script src="../Javascript/sign-up.js"></script>
+        <title>Trackgenix - Sign-up</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="../Assets/menu-hamburguesa.png" alt="menu">  
+            </div>
+            <div>
+                <h1>
+                    Trackgenix
+                </h1> 
+                <p>
+                    We are Trackgenix
+                </p>
+            </div>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div>
+                <h2 id="sign-up">
+                    Sign Up
+                </h2>
+                <form id="sign-upForm">
+                    <label>
+                        <input id="fName" type="text" placeholder="Name" required>
+                        <span>
+                            <p id="alertFName"></p>
+                        </span>
+                        <input id="lName" type="text" placeholder="Last Name" required>
+                        <span>
+                            <p id="alertLName"></p>
+                        </span>
+                        <input id="dni" type="number" placeholder="DNI" required>
+                        <span>
+                            <p id="alertDNI"></p>
+                        </span>
+                        <input id="date" type="date" placeholder="Birth Date" required>
+                        <span>
+                            <p id="alertDate"></p>
+                        </span>
+                        <input id="phoneNumber" type="number" placeholder="Phone number" required>
+                        <span>
+                            <p id="alertPhone"></p>
+                        </span>
+                        <input id="address" type="text" placeholder="Address" required>
+                        <span>
+                            <p id="alertAddress"></p>
+                        </span>
+                    </label>
+                    <label>
+                        <input id="city" type="text" placeholder="City" required>
+                        <span>
+                            <p id="alertCity"></p>
+                        </span>
+                        <input id="pCode" type="number" placeholder="Postal code" required>
+                        <span>
+                            <p id="alertPCode"></p>
+                        </span>
+                        <input id="email" type="email" placeholder="Email" required>
+                        <span>
+                            <p id="alertEmail"></p>
+                        </span>
+                        <input id="pass" type="password" placeholder="Password" required>
+                        <span>
+                            <p id="alertPass"></p>
+                        </span>
+                        <input id="passRepetition" type="password" placeholder="Repeat the password" required>
+                        <span>
+                            <p id="alertPassRepetition"></p>
+                        </span>
+                    </label>
+                </form>
+                <input class="sign-upSubmit" type="submit" value="Create account">
+            </div>
+        </main>
+        <footer>
+            <p>
+                Rosario, Santa Fe - Argentina
+            </p>
+            <p>
+                Copyright &copy; 2022 Trackgenix SA. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
