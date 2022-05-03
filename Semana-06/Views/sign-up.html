@@ -17,7 +17,9 @@
     </head>
     <body>
         <header>
-            <img src="../Assets/menu-hamburguesa.png" alt="menu">
+            <div>
+                <img src="../Assets/menu-hamburguesa.png" alt="menu">  
+            </div>
             <div>
                 <h1>
                     Trackgenix
@@ -38,7 +40,9 @@
         </aside>
         <main>
             <div>
-                <h2 id="sign-up">Sign Up</h2>
+                <h2 id="sign-up">
+                    Sign Up
+                </h2>
                 <form id="sign-upForm">
                     <label>
                         <input id="fName" type="text" placeholder="Name" required>
@@ -49,15 +53,15 @@
                         <span>
                             <p id="alertLName"></p>
                         </span>
-                        <input id="dni" type="text" placeholder="DNI" required>
+                        <input id="dni" type="number" placeholder="DNI" required>
                         <span>
                             <p id="alertDNI"></p>
                         </span>
-                        <input id="date" type="text" placeholder="Birth Date" required>
+                        <input id="date" type="date" placeholder="Birth Date" required>
                         <span>
                             <p id="alertDate"></p>
                         </span>
-                        <input id="phoneNumber" type="text" placeholder="Phone number" required>
+                        <input id="phoneNumber" type="number" placeholder="Phone number" required>
                         <span>
                             <p id="alertPhone"></p>
                         </span>
@@ -71,7 +75,7 @@
                         <span>
                             <p id="alertCity"></p>
                         </span>
-                        <input id="pCode" type="text" placeholder="Postal code" required>
+                        <input id="pCode" type="number" placeholder="Postal code" required>
                         <span>
                             <p id="alertPCode"></p>
                         </span>
@@ -79,11 +83,11 @@
                         <span>
                             <p id="alertEmail"></p>
                         </span>
-                        <input id="pass" type="text" placeholder="Password" required>
+                        <input id="pass" type="password" placeholder="Password" required>
                         <span>
                             <p id="alertPass"></p>
                         </span>
-                        <input id="passRepetition" type="text" placeholder="Repeat the password" required>
+                        <input id="passRepetition" type="password" placeholder="Repeat the password" required>
                         <span>
                             <p id="alertPassRepetition"></p>
                         </span>

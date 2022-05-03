@@ -72,6 +72,11 @@ We are working to improve Trackgenix so your company can have the best results. 
     employees were added to the last version, with its corresponding data validation processes, to ensure that the input information is clean, correct, and useful.
     The updates can be seen following this [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-06/Views/index.html) 
 
-   
-*By: Nancy L. Cima - Date: 24/04/2022*
+   ##### Week 07 Version:
+
+    -  In the seventh-week version, the forms of the sign-up and login pages were extended so that by pressing the confirmation button, the data loaded in them is sent to a web server through an HTTP request.
+    The updates can be seen following this [link](https://nancycima.github.io/BaSP-M2022-Etapa-1/Semana-07/Views/index.html) 
+
+  
+*By: Nancy L. Cima - Date: 02/05/2022*
 

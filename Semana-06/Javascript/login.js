@@ -24,7 +24,7 @@ window.onload = function () {
   /* Password validation */
     var passwordInputElement = document.getElementById("pass");
     var alertPassword = document.getElementById("alertPassword");
-    var alertMessagePassword = document.createTextNode("The password should consist ofal least 8 numbers and letters.");
+    var alertMessagePassword = document.createTextNode("The password should consist of at least 8 numbers and letters.");
 
     passwordInputElement.onblur = function () {
       var numberSum = false;
