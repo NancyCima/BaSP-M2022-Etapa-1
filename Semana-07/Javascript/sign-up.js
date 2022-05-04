@@ -367,18 +367,18 @@ window.onload = function () {
                 .then(function (res) {
                     if (res.ok) {
                         myStorage();
-                        alert("Name: " + nameInputElement.value +
-                            "Last Name: " + lastNameInputElement.value +
-                            "DNI: " + dniInputElement.value +
-                            "DoB: " + dateInputElement.value +
-                            "Phone: " + phoneNumberInputElement.value +
-                            "&Address: " + addressInputElement.value +
-                            "City: " + locationInputElement.value +
-                            "Zip: " + postalCodeInputElement.value +
-                            "Email: " + emailInputElement.value +
-                            "Password: " + passwordInputElement.value);
+                        alert("Correct sign-up. Name: " + nameInputElement.value +
+                            " Last Name: " + lastNameInputElement.value +
+                            " DNI: " + dniInputElement.value +
+                            " DoB: " + dateInputElement.value +
+                            " Phone: " + phoneNumberInputElement.value +
+                            " Address: " + addressInputElement.value +
+                            " City: " + locationInputElement.value +
+                            " Zip: " + postalCodeInputElement.value +
+                            " Email: " + emailInputElement.value +
+                            " Password: " + passwordInputElement.value);
                     } else {
-                        alert("Correct sign-up");
+                        alert("Error");
                     }
                 })
                 .catch(function (err) {
