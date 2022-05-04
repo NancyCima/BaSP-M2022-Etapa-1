@@ -91,21 +91,19 @@ window.onload = function () {
     var validationDate;
 
     dateInputElement.onblur = function () {
-        var date = dateInputElement.value.replace(/[/]/g, '');
-       /* var slash = 0;
-        for (var i = 0; i < dateInputElement.value.length; i++) {
-            if (dateInputElement.value[i] == '-') {
-                slash++;
-            }
-        }*/
-        if (/*slash == 2 &&*/ !isNaN(date) ) {
+        if (!dateInputElement.value) {
+            dateInputElement.style = "border: solid 2px red; border-radius: 5px";
+            alertDate.appendChild(alertMessageDate);
+            validationDate = false;
+        }
+        if (validateDate(dateInputElement.value)) {
             dateInputElement.style = "border: solid 2px  #48e525; border-radius: 5px";
             validationDate = true;
         } else {
             dateInputElement.style = "border: solid 2px red; border-radius: 5px";
             alertDate.appendChild(alertMessageDate);
-            alert("Insert a valid date. It shouls be written in the form dd/mm/yyyy")
             validationDate = false;
+            alert("Insert a valid date. It shouls be written in the form dd/mm/yyyy")
         }
     }
 
@@ -114,6 +112,20 @@ window.onload = function () {
         if (validationDate == false) {
          alertDate.removeChild(alertMessageDate);
         }
+    }
+
+    function validateDate(dateToValidate){
+        var [year, month, day] = dateToValidate.split("-");
+        var isoFormattedStr = `${year}/${month}/${day}`;
+        var date = new Date(isoFormattedStr);
+        var currentDate = new Date(Date.now());
+        return currentDate >= date
+    }
+
+    function toMonthDayYear(dateToConv){
+        [year, month, day] = dateToConv.split('-');
+        var dateMDY = [month, day, year].join('/')
+        return dateMDY
     }
 
     /* Phone number validation */
@@ -331,32 +343,29 @@ window.onload = function () {
     }
 
     function infoSubmit() {
-        if (validationName === true &&
-            validationLastName === true &&
-            validationDNI === true &&
-            validationDate === true &&
-            validationAddress === true &&
-            validationLocation === true &&
-            validationPhone === true &&
-            validationCode === true &&
-            validationEmail === true &&
-            validationPassword === true) {
+        if (validationName &&
+            validationLastName &&
+            validationDNI &&
+            validationDate &&
+            validationAddress &&
+            validationLocation &&
+            validationPhone &&
+            validationCode &&
+            validationEmail &&
+            validationPassword) {
             fetch(url +
                 "?name=" + nameInputElement.value +
                 "&lastName=" + lastNameInputElement.value +
                 "&dni=" + dniInputElement.value +
-                "&dob=" + dateInputElement.value +
+                "&dob=" + toMonthDayYear(dateInputElement.value) +
                 "&phone=" + phoneNumberInputElement.value +
                 "&address=" + addressInputElement.value +
                 "&city=" + locationInputElement.value +
                 "&zip=" + postalCodeInputElement.value +
                 "&email=" + emailInputElement.value +
                 "&password=" + passwordInputElement.value)
-                .then(function (response) {
-                    return response.json();
-                })
                 .then(function (res) {
-                    if (res.succes) {
+                    if (res.ok) {
                         myStorage();
                         alert("Name: " + nameInputElement.value +
                             "Last Name: " + lastNameInputElement.value +
@@ -369,7 +378,7 @@ window.onload = function () {
                             "Email: " + emailInputElement.value +
                             "Password: " + passwordInputElement.value);
                     } else {
-                        alert(res.msg);
+                        alert("Correct sign-up");
                     }
                 })
                 .catch(function (err) {
@@ -383,4 +392,11 @@ window.onload = function () {
         e.preventDefault();
         infoSubmit();
     }
+
+    var inputs = [nameInputElement, lastNameInputElement, dniInputElement, dateInputElement, phoneNumberInputElement, addressInputElement, locationInputElement, postalCodeInputElement, emailInputElement, passwordInputElement]
+    var params = ['name', 'lastName', 'dni', 'dob', 'phone', 'address', 'city', 'zip', 'email', 'password'];
+    
+    params.forEach(function (key, index) {
+        inputs[index].value = localStorage.getItem(key);
+    });
 }

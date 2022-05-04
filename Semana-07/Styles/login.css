@@ -124,8 +124,11 @@ span {
 
 @media only screen and (min-width: 768px) {
     main div {
+        height: 500px;
         width: 400px;
     }
+    .loginInputText input {
+        font-size: 18px;
 }
 
 /* Desktop */
@@ -137,5 +140,9 @@ span {
     }
     main div {
      margin: 20% 0 20% 0;
+     height: 450px;
+    }
+    .loginInputText input {
+        font-size: 15px;
     }
 }
